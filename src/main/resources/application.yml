@@ -3,4 +3,4 @@ spring:
     name: user-service
 
 config:
-  import: 
+  import: "optional:configserver:http://config-service:8888"
